@@ -1,0 +1,52 @@
+export default {
+  $schema: "https://goldie.dev/schema.json",
+  devices: ["iphone-6.9", "pixel-10-pro"],
+  theme: {
+    template: "showcase",
+    fontFamily: "Noto Sans Arabic, Arial, sans-serif",
+    screenOnly: false,
+    frame: "17-pro-blue",
+  },
+  scenes: [
+    {
+      id: "matjarkom-home",
+      title: "متجركم — Matjarkom",
+      headline: "تطبيق تسوق إلكتروني ذكي مدعوم بالذكاء الاصطناعي",
+      subtitle: "Smart E-Commerce with AI Assistant & Fast Checkout",
+      image: "assets/متجركم/dark_home.png",
+      background: "linear-gradient(135deg, #0C202C 0%, #17453B 100%)",
+    },
+    {
+      id: "matjarkom-category",
+      title: "متجركم — Categories",
+      headline: "تصفح الأقسام والمنتجات بمرونة وسرعة عالية",
+      subtitle: "Seamless category browsing & location-aware tracking",
+      image: "assets/متجركم/dark_category.png",
+      background: "linear-gradient(135deg, #0F2B3C 0%, #102B39 100%)",
+    },
+    {
+      id: "trustsafe-doc",
+      title: "TrustSafe Enterprise",
+      headline: "إدارة وثائق المؤسسات بأعلى معايير الأمان",
+      subtitle: "Secure Enterprise Document Management & Workflows",
+      image: "assets/trustsafe.png",
+      background: "linear-gradient(135deg, #081B28 0%, #1C4548 100%)",
+    },
+    {
+      id: "brew-and-bloom",
+      title: "Brew & Bloom Coffee",
+      headline: "تجربة طلب القهوة الفاخرة والمكافآت",
+      subtitle: "Premium Coffee Ordering & Artisanal Brew Selection",
+      image: "assets/coffeeshop.png",
+      background: "linear-gradient(135deg, #1C2D2A 0%, #07131C 100%)",
+    },
+    {
+      id: "build-guard",
+      title: "Build-Guard AI",
+      headline: "إدارة وإرشادات السلامة في مواقع البناء بالذكاء الاصطناعي",
+      subtitle: "Real-time AI Site Safety Monitoring & Incident Reports",
+      image: "assets/build_gaurd_assets/Build-guard.png",
+      background: "linear-gradient(135deg, #22372B 0%, #0C202C 100%)",
+    },
+  ],
+};

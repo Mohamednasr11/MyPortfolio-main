@@ -1,0 +1,37 @@
+name: mohamed_nasr_portfolio
+description: Mohamed Nasr Eldeen's Flutter developer portfolio.
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  url_launcher: ^6.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - me.png
+    - mee.jpg
+    - assets/coffeeshop.png
+    - assets/trustsafe.png
+    - assets/trustsafe_0.jpeg
+    - assets/trustsafe_3.jpeg
+    - assets/trustsafe_6.jpeg
+    - assets/High-Fidelity ( Home ).png
+    - assets/High-Fidelity ( Delivery ).png
+    - assets/High-Fidelity ( Order ).png
+    - assets/build_gaurd_assets/Build-guard.png
+    - assets/build_gaurd_assets/Home.png
+    - assets/build_gaurd_assets/Scan.png
+    - assets/build_gaurd_assets/ReportsLibrary.png
+    - assets/متجركم/matqarqom_thumbnail.png
+    - assets/متجركم/dark_home.png
+    - assets/متجركم/dark_category.png
+    - assets/متجركم/dark_payment_screen.png

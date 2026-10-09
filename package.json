@@ -1,0 +1,14 @@
+{
+  "name": "mohamed-nasr-portfolio-goldie",
+  "version": "1.0.0",
+  "description": "App Store and Google Play mockup generator config using Goldie by Software Mansion",
+  "main": "goldie.config.ts",
+  "scripts": {
+    "goldie": "goldie all",
+    "goldie:doctor": "goldie doctor",
+    "goldie:studio": "goldie studio"
+  },
+  "dependencies": {
+    "goldie": "^0.5.0"
+  }
+}
